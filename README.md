@@ -3,14 +3,19 @@
 <h2>How to start use it</h2>
 
 <h3>GitHub</h3>
-    <p>Clone repo: https://github.com/VladislavFedorov/todo-list.git</p>
+    <p>Clone repo:</p>
+<ul>
+    <li>git clone https://github.com/VladislavFedorov/todo-list.git</li>
+</ul>
 
 <h3>MySQL</h3>
-    <p>Use this commands to create a database and table:</p>
-    <p>CREATE DATABASE todolist;</p>
-    <p>CREATE TABLE todo (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, todoTitle VARCHAR(200), todo TEXT(255), date DATETIME);</p>
-
-<h3>connection.php</h3>
+<p>Use this commands to create a MySQL database and table:</p>
+<ul>
+    <li>CREATE DATABASE todolist;</li>
+    <li>CREATE TABLE todo (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, todoTitle VARCHAR(200), todo TEXT(255), date DATETIME);</li>
+<ul>
+    
+<h3>Connection.php</h3>
     <p>Use your server data for connection.</p>
     
 <h2>More information</h2>
