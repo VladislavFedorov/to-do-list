@@ -3,7 +3,7 @@
 <h2>How to start use it</h2>
 
 <h3>GitHub</h3>
-    <p>Clone repo:</p>
+    <p>Clone repo.</p>
 <ul>
     <li>git clone https://github.com/VladislavFedorov/todo-list.git</li>
 </ul>
@@ -13,10 +13,11 @@
 <ul>
     <li>CREATE DATABASE todolist;</li>
     <li>CREATE TABLE todo (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, todoTitle VARCHAR(200), todo TEXT(255), date DATETIME);</li>
-<ul>
-    
+</ul>
+
 <h3>Connection.php</h3>
     <p>Use your server data for connection.</p>
+    <p>Edit constants: "hostname", "username", "password", "database" and variable "table" with your data.</p>
     
 <h2>More information</h2>
 
