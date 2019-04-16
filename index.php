@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>TO-DO List</title>
+    <title>TODO List</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles/style.css">
 	
@@ -14,27 +14,9 @@
 
 <div class="container">
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
-
-<a class="navbar-brand" href="index.php">TO-DO List</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
-		<li class="nav-item active">
-			<a class="nav-link" href="create.php"> 
-			    <button type="submit" class="btn btn-success">New note</button>
-			</a>
-		</li>
-    </ul>
-	
-</div>
- 
-</nav>
-
 <?php
+
+include 'includes/header.php';
 
 require_once("connection.php");
 
@@ -71,14 +53,9 @@ if(mysqli_num_rows($result) >= 1){
     }
 };
 
+include 'includes/footer.php';
+
 ?>
-
-<footer class="page-footer font-small bg-dark">
-    <div class="footer-copyright text-center py-3">
-        <a href="https://github.com/VladislavFedorov/to-do-list" target="_blank">2019, GitHub</a>
-    </div>
-</footer>
-
 
 </div>
 
