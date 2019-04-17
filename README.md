@@ -3,7 +3,7 @@
 <h2>How to start use it</h2>
 
 <h3>GitHub</h3>
-    <p>Clone repo.</p>
+    <p>Clone a repository.</p>
 <ul>
     <li>git clone https://github.com/VladislavFedorov/todo-list.git</li>
 </ul>
